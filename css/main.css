@@ -1928,7 +1928,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff67ff;
+  background: #ffd129;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3058,7 +3058,6 @@ header.post-header {
 }
 .links-of-author-item {
   margin: 5px 0 0;
-  width: 50%;
 }
 .links-of-author-item a {
   max-width: 216px;
@@ -3108,9 +3107,7 @@ header.post-header {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   margin: 5px 0 0;
-  width: 50%;
   display: inline-block;
-  width: unset;
 }
 .links-of-blogroll-inline .links-of-blogroll-item a {
   max-width: 216px;
@@ -3277,4 +3274,18 @@ header.post-header {
 }
 .headband {
   display: none;
+}
+body {
+  background: url("https://source.unsplash.com/random/1600x900");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.main-inner {
+  margin-top: 60px;
+  padding: 60px 60px 60px 60px;
+  background: #fff;
+  opacity: 0.8;
+  min-height: 500px;
 }
