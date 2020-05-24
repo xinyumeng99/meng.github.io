@@ -1036,6 +1036,7 @@ if(canvas.getContext){
     </div>
   </div>
 </div>
+
         
 
 
@@ -1703,7 +1704,7 @@ if(canvas.getContext){
     ages = ages.replace(/minutes?/, "分");
     ages = ages.replace(/seconds?/, "秒");
     ages = ages.replace(/\d+/g, '<span style="color:#1890ff">$&</span>');
-    div.innerHTML = `footer.age ${ages}`;
+    div.innerHTML = `我已在此等候你 ${ages}`;
   }
   var div = document.createElement("div");
   //插入到copyright之后
