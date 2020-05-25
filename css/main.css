@@ -1964,7 +1964,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffac93;
+  background: #b0a454;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3351,7 +3351,7 @@ body {
   background: rgba(255,255,255,0.9);
 }
 .popup {
-  opacity: 0.9;
+  opacity: 0.7;
 }
 .btn {
   color: #49b1f5;
