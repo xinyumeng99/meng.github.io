@@ -1,65 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>使用Github+Hexo搭建个人博客|No.1</title>
-      <link href="/2020/05/27/%E4%BD%BF%E7%94%A8Github-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-No-1/"/>
-      <url>/2020/05/27/%E4%BD%BF%E7%94%A8Github-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-No-1/</url>
-      
-        <content type="html"><![CDATA[<p>花了好几天时间搭建了一个自己的hexo博客，附上链接，欢迎来访：<br><a href="https://stupidbunny.top">Stupid bunny-笨小兔</a></p><a id="more"></a><h3 id="前言"><a class="header-anchor" href="#前言">¶</a>前言</h3><p>现在市面上的博客很多，如CSDN，博客园，简书等等，可以在博客上发表一些文章，大家共同努力学习，这里呢，给大家展示使用Github和Hexo来搭建静态博客</p><blockquote><p><strong>静态网页</strong>简单来说就是设计者把页面的东西设计好了，只是发布上去，本地浏览器就能访问。而<strong>动态网页</strong>的内容都是依靠服务器来运行的。管理者发布文章的时候只需要进入后台发布就行，发布后想更改也非常容易。需要主机来存放网站的源码等数据。</p><p>个人博客。</p></blockquote><blockquote><p>首先，搭建本地服务器的个人博客是免费的，你可以直接用GitHub的域名，不需要买域名，也不需要买主机而且非常稳定。搭建出一个个人博客会让自己倍儿有成就感，能力的提升当然也不在话下。</p></blockquote><p>一期教程是完不成的，后续会继续发布博客部署以及主题优化等…</p><p>下面我们开启由“小白”转向“博客大佬”的蜕变过程</p><h3 id="Hexo简介"><a class="header-anchor" href="#Hexo简介">¶</a>Hexo简介</h3><p>Hexo是一款基于Node.js的静态博客框架，依赖少易于安装使用，可以方便的生成静态网页托管在GitHub和Coding上，是搭建博客的首选框架。大家可以进入<a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">hexo官网</a>进行详细查看，因为Hexo的创建者是台湾人，对中文的支持很友好，可以选择中文进行查看。</p><p>第一期教程分为两部分：</p><ul><li>第一部分：hexo搭建的准备工作</li><li>第二部分：hexo的初级搭建及基本配置</li></ul><hr><h3 id="第一部分"><a class="header-anchor" href="#第一部分">¶</a>第一部分</h3><h4 id="hexo搭建的准备工作："><a class="header-anchor" href="#hexo搭建的准备工作：">¶</a>hexo搭建的准备工作：</h4><ol><li>安装Git</li><li>安装Node.js</li></ol><h5 id="1-安装Git"><a class="header-anchor" href="#1-安装Git">¶</a>1.安装Git</h5><p>linux：对linux来说实在是太简单了，因为最早的git就是在linux上编写的，只需要一行代码</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="builtin-name">get</span> install git</span><br></pre></td></tr></table></figure><p>windows：到git官网上下载,<a href="https://gitforwindows.org/" target="_blank" rel="noopener">Download git</a>,下载后会有一个Git Bash的命令行工具，以后就用这个工具来使用git。</p><p>安装步骤：</p><p>选择自己对应的系统平台，我这里是用的Windows。</p><p><img src="/2020/05/27/%E4%BD%BF%E7%94%A8Github-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-No-1/02.png" alt></p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/05/24/hello-world/</url>
+    <content><![CDATA[<h6 id="前言"><a class="header-anchor" href="#前言">¶</a>前言</h6>
+<p>Welcome to <a href="https://xinyumeng99.github.io/" target="_blank" rel="noopener">Stupid bunny</a>! This is my very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick-Start"><a class="header-anchor" href="#Quick-Start">¶</a>Quick Start</h2>
+<h3 id="Create-a-new-post"><a class="header-anchor" href="#Create-a-new-post">¶</a>Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a class="header-anchor" href="#Run-server">¶</a>Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a class="header-anchor" href="#Generate-static-files">¶</a>Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a class="header-anchor" href="#Deploy-to-remote-sites">¶</a>Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
       <categories>
-          
-          <category> hexo </category>
-          
+        <category>HelloWorld</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-            <tag> 搭建hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2020/05/24/hello-world/"/>
-      <url>/2020/05/24/hello-world/</url>
-      
-        <content type="html"><![CDATA[<h6 id="前言"><a class="header-anchor" href="#前言">¶</a>前言</h6><p>Welcome to <a href="https://xinyumeng99.github.io/" target="_blank" rel="noopener">Stupid bunny</a>! This is my very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a class="header-anchor" href="#Quick-Start">¶</a>Quick Start</h2><h3 id="Create-a-new-post"><a class="header-anchor" href="#Create-a-new-post">¶</a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a class="header-anchor" href="#Run-server">¶</a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a class="header-anchor" href="#Generate-static-files">¶</a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a class="header-anchor" href="#Deploy-to-remote-sites">¶</a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      
+      <tags>
+        <tag>hexo</tag>
+        <tag>理性</tag>
+        <tag>进步</tag>
+        <tag>love</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用Github+Hexo搭建个人博客|No.1</title>
+    <url>/2020/05/27/%E4%BD%BF%E7%94%A8Github-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-No-1/</url>
+    <content><![CDATA[<p>花了好几天时间搭建了一个自己的hexo博客，附上链接，欢迎来访：<br>
+<a href="https://stupidbunny.top">Stupid bunny-笨小兔</a></p>
+<a id="more"></a>
+<h3 id="前言"><a class="header-anchor" href="#前言">¶</a>前言</h3>
+<p>现在市面上的博客很多，如CSDN，博客园，简书等等，可以在博客上发表一些文章，大家共同努力学习，这里呢，给大家展示使用Github和Hexo来搭建静态博客</p>
+<blockquote>
+<p><strong>静态网页</strong>简单来说就是设计者把页面的东西设计好了，只是发布上去，本地浏览器就能访问。而<strong>动态网页</strong>的内容都是依靠服务器来运行的。管理者发布文章的时候只需要进入后台发布就行，发布后想更改也非常容易。需要主机来存放网站的源码等数据。</p>
+<p>个人博客。</p>
+</blockquote>
+<blockquote>
+<p>首先，搭建本地服务器的个人博客是免费的，你可以直接用GitHub的域名，不需要买域名，也不需要买主机而且非常稳定。搭建出一个个人博客会让自己倍儿有成就感，能力的提升当然也不在话下。</p>
+</blockquote>
+<p>一期教程是完不成的，后续会继续发布博客部署以及主题优化等…</p>
+<p>下面我们开启由“小白”转向“博客大佬”的蜕变过程</p>
+<h3 id="Hexo简介"><a class="header-anchor" href="#Hexo简介">¶</a>Hexo简介</h3>
+<p>Hexo是一款基于Node.js的静态博客框架，依赖少易于安装使用，可以方便的生成静态网页托管在GitHub和Coding上，是搭建博客的首选框架。大家可以进入<a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">hexo官网</a>进行详细查看，因为Hexo的创建者是台湾人，对中文的支持很友好，可以选择中文进行查看。</p>
+<p>第一期教程分为两部分：</p>
+<ul>
+<li>第一部分：hexo搭建的准备工作</li>
+<li>第二部分：hexo的初级搭建及基本配置</li>
+</ul>
+<hr>
+<h3 id="第一部分"><a class="header-anchor" href="#第一部分">¶</a>第一部分</h3>
+<h4 id="hexo搭建的准备工作："><a class="header-anchor" href="#hexo搭建的准备工作：">¶</a>hexo搭建的准备工作：</h4>
+<ol>
+<li>安装Git</li>
+<li>安装Node.js</li>
+</ol>
+<h5 id="1-安装Git"><a class="header-anchor" href="#1-安装Git">¶</a>1.安装Git</h5>
+<p>linux：对linux来说实在是太简单了，因为最早的git就是在linux上编写的，只需要一行代码</p>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">sudo apt-<span class="builtin-name">get</span> install git</span><br></pre></td></tr></table></figure>
+<p>windows：到git官网上下载,<a href="https://gitforwindows.org/" target="_blank" rel="noopener">Download git</a>,下载后会有一个Git Bash的命令行工具，以后就用这个工具来使用git。</p>
+<p>安装步骤：</p>
+<p>选择自己对应的系统平台，我这里是用的Windows。</p>
+<p><img src="/2020/05/27/%E4%BD%BF%E7%94%A8Github-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-No-1/02.png" alt></p>
+]]></content>
       <categories>
-          
-          <category> HelloWorld </category>
-          
+        <category>hexo</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-            <tag> 理性 </tag>
-            
-            <tag> 进步 </tag>
-            
-            <tag> love </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>hexo</tag>
+        <tag>搭建hexo</tag>
+      </tags>
+  </entry>
 </search>
