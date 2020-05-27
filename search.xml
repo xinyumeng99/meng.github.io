@@ -33,7 +33,7 @@
 <li>安装Node.js</li>
 </ol>
 <h5 id="1-安装Git"><a class="header-anchor" href="#1-安装Git">¶</a>1.安装Git</h5>
-<p>windows：到git官网上下载,<a href="https://gitforwindows.org/" target="_blank" rel="noopener">Download git</a>,下载后单击右键会有一个Git Bash的命令行工具，以后就用这个工具来使用git。</p>
+<p>windows：到git官网<a href="https://gitforwindows.org/" target="_blank" rel="noopener">Download git</a>上下载,下载后单击右键会有一个Git Bash的命令行工具，以后就用这个工具来使用git。</p>
 <ul>
 <li>
 <p>选择自己对应的系统平台，我这里是用的Windows，点击下载，按照默认选项安装即可。</p>
@@ -63,7 +63,7 @@
 <h4 id="hexo的初级搭建及基本配置："><a class="header-anchor" href="#hexo的初级搭建及基本配置：">¶</a>hexo的初级搭建及基本配置：</h4>
 <h5 id="1-GitHub注册"><a class="header-anchor" href="#1-GitHub注册">¶</a>1. GitHub注册</h5>
 <ul>
-<li>GitHub官网：<a href="https://github.com/%EF%BC%8C%E6%89%93%E5%BC%80GitHub%E5%AE%98%E7%BD%91%EF%BC%8C%E7%82%B9%E5%87%BB%E6%B3%A8%E5%86%8C%E3%80%82" target="_blank" rel="noopener">https://github.com/，打开GitHub官网，点击注册。</a></li>
+<li>GitHub官网：<a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>，打开GitHub官网，点击注册。</li>
 </ul>
 <p><img src="/2020/05/27/%E4%BD%BF%E7%94%A8Github-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-No-1/005.png" alt></p>
 <ul>
