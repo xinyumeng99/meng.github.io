@@ -297,8 +297,7 @@
 <p>Markdown 是一种可以使用普通文本编辑器编写的 <strong>标记语言</strong>，通过简单的 <strong>标记语法</strong>，它可以使普通文本内容具有一定的格式</p>
 </blockquote>
 <p>基于 Markdown 语法的简洁性，它已经成为目前世界上最流行的用于书写博客的语言</p>
-<hr>
-<p><img src="https://mmbiz.qpic.cn/mmbiz_gif/7ibxKYkSo5dX7dJ5HrIAcqh3R6sv1VbVBEBw3RqfoJIfNUQoejvnLlz3vOImh587ibKickLZM7VKYlQxp8AvMkghQ/640?wx_fmt=gif&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1" alt="img"></p>
+<p><img src="/2020/05/31/%E4%BD%BF%E7%94%A8Github-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-No-2/640.gif" alt></p>
 <hr>
 <h2 id="教程"><a class="header-anchor" href="#教程">¶</a>教程</h2>
 <h4 id="1、首先在博客文件夹里的根目录下打开Git。"><a class="header-anchor" href="#1、首先在博客文件夹里的根目录下打开Git。">¶</a>1、首先在博客文件夹里的根目录下打开Git。</h4>
@@ -310,6 +309,7 @@
 </blockquote>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">cd</span> <span class="built_in">source</span>/_posts/</span></span><br></pre></td></tr></table></figure>
 <p><img src="/2020/05/31/%E4%BD%BF%E7%94%A8Github-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-No-2/002.jpg" alt></p>
+<hr>
 <h4 id="3、创建新博客文章命令："><a class="header-anchor" href="#3、创建新博客文章命令：">¶</a>3、创建新博客文章命令：</h4>
 <figure class="highlight actionscript"><table><tr><td class="code"><pre><span class="line">$ hexo <span class="keyword">new</span> <span class="string">"我的第一篇博客文章"</span></span><br></pre></td></tr></table></figure>
 <p><img src="/2020/05/31/%E4%BD%BF%E7%94%A8Github-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-No-2/003.jpg" alt></p>
@@ -321,7 +321,7 @@
 <p><img src="/2020/05/31/%E4%BD%BF%E7%94%A8Github-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-No-2/004.jpg" alt></p>
 <p>找到：</p>
 <figure class="highlight elixir"><table><tr><td class="code"><pre><span class="line"><span class="variable">$ </span><span class="symbol">post_asset_folder:</span> ture</span><br></pre></td></tr></table></figure>
-<p>默认是false，改为true，<strong>注意冒号和true之间有一个空格！</strong><img src="/2020/05/31/%E4%BD%BF%E7%94%A8Github-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-No-2/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"></p>
+<p>默认是false，改为true，<strong>注意冒号和true之间有一个空格！</strong></p>
 <p><img src="/2020/05/31/%E4%BD%BF%E7%94%A8Github-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-No-2/005.jpg" alt></p>
 <blockquote>
 <p>设置好之后再新建.md文件，就会发现<code>_posts</code>文件夹中出现了同名的文件夹和.md文件。那么，以后每篇博客中的素材就可以放在相应的文件夹中了， 是不是很方便呢。</p>
@@ -378,7 +378,7 @@
 <p>将文件里的内容修改为上述格式，根据自己的需求选择，也可以和下面我的一样</p>
 <p><img src="/2020/05/31/%E4%BD%BF%E7%94%A8Github-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-No-2/014.jpg" alt></p>
 <p><img src="/2020/05/31/%E4%BD%BF%E7%94%A8Github-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-No-2/015.jpg" alt></p>
-<p>**注意：**属性和属性值之间必须有一个空格，否则会解析错误</p>
+<p><strong>注意：属性和属性值之间必须有一个空格，否则会解析错误</strong></p>
 <hr>
 <blockquote>
 <p>本期教程就到这里啦，这样Hexo的搭建及文章发布就完成了。<br>
